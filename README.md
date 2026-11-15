@@ -15,6 +15,26 @@
 - **월간 리포트**: 업무 사용 비율, 경비 합계, 국세청 고시 업무용승용차 운행기록부 항목 순서의 CSV 내보내기.
 - **운전 안전**: 질문은 정차 중에만 하고, 주행 중에는 화면이 잠기며 브리핑만 읽습니다.
 
+## 시연
+
+- 시연 영상(1분, 데모 모드): [`demo/Opero_demo.mp4`](demo/Opero_demo.mp4)
+- 아래 화면은 모두 Pleos Connect Emulator에서 실행한 실제 앱 화면입니다. 거래처·수치는 샘플 데이터예요.
+
+| 정차 중 · 오늘의 운행 | 주행 중 · 도착 전 브리핑 |
+|---|---|
+| ![오늘의 운행](docs/screens/01_today.png) | ![도착 전 브리핑](docs/screens/02_briefing.png) |
+| 오늘 기록된 구간과 다음 방문지, 지난 메모를 한 화면에. | 도착 5분 전, 같은 거래처의 지난 메모를 읽어 줍니다. |
+
+| 도착 순간 · 방문 목적 기록 | 정차 중 · 구간 확인·수정 |
+|---|---|
+| ![도착 질문](docs/screens/03_arrival_question.png) | ![구간 수정](docs/screens/06_edit_trip.png) |
+| 주차하면 이번 운행 기록과 함께 목적을 묻습니다. | 미확인 구간을 업무·출퇴근·개인으로 정리하거나 삭제합니다. |
+
+| 거래처 · 방문·메모 이력 | 월간 리포트 · 운행기록부 |
+|---|---|
+| ![거래처 이력](docs/screens/07_client_history.png) | ![월간 리포트](docs/screens/08_report.png) |
+| 거래처별 방문 목적과 미팅 메모가 날짜순으로 쌓입니다. | 업무 사용 비율·경비와 국세청 양식 CSV 내보내기. |
+
 ## APK
 
 - `apk/Opero_release.apk` (minSdk 28, Pleos Connect Emulator API 34에서 확인)
