@@ -1,3 +1,4 @@
+
 # Opero (오페로)
 
 차를 일터로 쓰는 영업직·1인 사업자를 위한 **차 안 업무 비서**입니다.
@@ -16,7 +17,7 @@
 - **운전 안전**: 질문은 정차 중에만 하고, 주행 중에는 화면이 잠기며 브리핑만 읽습니다.
 
 ## 시연
-
+https://github.com/user-attachments/assets/c6a870fc-3eae-4b19-8547-8ca533281a2f
 - 시연 영상(1분, 데모 모드): [`demo/Opero_demo.mp4`](demo/Opero_demo.mp4)
 - 아래 화면은 모두 Pleos Connect Emulator에서 실행한 실제 앱 화면입니다. 거래처·수치는 샘플 데이터예요.
 
