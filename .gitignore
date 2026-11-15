@@ -1,0 +1,14 @@
+*.iml
+.gradle/
+.kotlin/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+# 개인 작업 문서(접수양식 등)는 저장소에 올리지 않습니다.
+/Claude outputs/
+*.docx
